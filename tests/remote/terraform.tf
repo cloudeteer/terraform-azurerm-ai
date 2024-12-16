@@ -6,9 +6,9 @@ terraform {
 
   required_providers {
     # based on the version constraints use the lowest version of the provider that is compatible
-    random = {
-      source  = "hashicorp/random"
-      version = "3.1.0"
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "3.0.0"
     }
   }
 }
